@@ -3,6 +3,7 @@ package main
 import (
 	"simulator/entity"
 	"testing"
+	"bytes"
 )
 
 func TestDestinationToJson(t *testing.T){
