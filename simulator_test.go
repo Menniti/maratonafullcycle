@@ -17,7 +17,7 @@ import (
 
 func TestDestinationToJson(t *testing.T){
 	order := entity.Order {
-		Uuid: "uuid-generic"
+		Uuid: "uuid-generic",
 	}
 
 	expected := []byte(`{"order":"uuid-generic","lat":"9999","lng":"9999"}`)
