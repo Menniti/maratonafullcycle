@@ -1,17 +1,7 @@
 package main
 
 import (
-	"bufio"
-	"encoding/json"
-	"fmt"
-	"github.com/streadway/amqp"
-	"log"
-	"os"
 	"simulator/entity"
-	"simulator/queue"
-	"strings"
-	"time"
-	"github.com/joho/godotenv"
 	"testing"
 )
 
